@@ -1,18 +1,16 @@
 # ----------------------------------------------------------------------------------------------
 
-# HULK - HTTP Unbearable Load King
+# BONUMMASTER - WEBSITEDOWN
 
 #
 
-# this tool is a dos tool that is meant to put heavy load on HTTP servers in order to bring them
+# WEBSITE TEST DDOS
 
-# to their knees by exhausting the resource pool, its is meant for research purposes only
-
-# and any malicious usage of this tool is prohibited.
+# UNDERGROUND SECURITY PH.
 
 #
 
-# author : Barry Shteiman , version 1.0
+# USEC BONUMMASTER
 
 # ----------------------------------------------------------------------------------------------
 
@@ -134,7 +132,7 @@ def usage():
 
 	print '---------------------------------------------------'
 
-	print 'USAGE: python hulk.py <url>'
+	print 'USAGE: python bonummaster.py <url>'
 
 	print 'you can add "safe" after url, to autoshut after dos'
 
@@ -266,7 +264,7 @@ else:
 
 	else:
 
-		print "-- HULK Attack Started --"
+		print "-- BONUMMASTER Attack Started --"
 
 		if len(sys.argv)== 3:
 
