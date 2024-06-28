@@ -1,7 +1,8 @@
 <?php
 
 function telegram($msg) {
-        global $telegrambot,$telegramchatid;
+        global 
+          $telegrambot,$telegramchatid;
         $url = 'https://api.telegram.org/bot'.$telegrambot.'/sendMessage';$data = array('chat_id'=>
 $telegramchatid,'text'=>$msg);
         $options = array('http'=>array('method' => 'POST','header' => "Content-Type:application/x-www-form-urlencoded\r\n",'content' => http_build_query($data),),);
