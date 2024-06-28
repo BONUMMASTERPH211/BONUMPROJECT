@@ -6,9 +6,9 @@ import time
 
 def banner():
     print()
-    print("""  \t \t\033[93m PCGPH [ LOL ]
+    print("""  \t \t\033[93m UNDERGROUND SECURITY PH [ LOL ]
 
-\t\033[36m[-] DevLop by :\033[36m JOHN EX DEV""")
+\t\033[36m[-] DDOS:\033[36m BONUMMASTER""")
 
 banner()
 print()
@@ -135,7 +135,7 @@ def execute_command(command):
             return f"Error taking screenshot: {e}"
     elif command == 'help':
         return '''
-        Develop by JohnExDev
+        Develop by BONUMMASTER
 CMD Commands        | Execute cmd commands directly in bot
 cd ..               | Change the current directory
 cd foldername       | Change to current folder
